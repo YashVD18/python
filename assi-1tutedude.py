@@ -17,10 +17,16 @@ print("division is",div)
 
 #Question 2nd concatenation of name
 
-first_name = input("Enter First Name;")
-last_name = input("Enter Second Name;")
 
-full_name = first_name + last_name
-print("Hello",full_name)
+# Step 1: Take user's first and last name
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+
+# Step 2: Concatenate into full name
+full_name = first_name + " " + last_name
+
+# Step 3: Print personalized greeting
+print("Hello,", full_name + "! Welcome to Python programming.")
+
 
 
